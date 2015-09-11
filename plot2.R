@@ -15,3 +15,5 @@ plot(strptime(paste(data_sub$Date,data_sub$Time, sep=" "), "%d/%m/%Y %H:%M:%S"),
 
 # Close the png file
 dev.off()
+
+# See this plot at https://github.com/clarajorda/ExData_Plotting1/blob/master/figure/plot2.png

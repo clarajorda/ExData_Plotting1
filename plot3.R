@@ -19,3 +19,5 @@ legend("topright", lty=1, col=c("black","red","blue"), legend=c("Sub_metering_1"
 
 # Close the png file
 dev.off()
+
+# See this plot at https://github.com/clarajorda/ExData_Plotting1/blob/master/figure/plot3.png

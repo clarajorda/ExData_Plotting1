@@ -4,7 +4,7 @@ data <- read.csv("household_power_consumption.txt", header=TRUE, sep=";", string
 # Subset the dates as be only 2007-02-01 and 2007-02-02. After a first visual inspection, these dates 
 # correspond to 1/2/2007 and 2/2/2007
 data_sub <- subset(data, Date %in% c("1/2/2007", "2/2/2007"))
-lib
+
 # Create the png plot with 480 x 480 pixels
 png("plot4.png", width = 480, height = 480)
 
@@ -29,3 +29,5 @@ plot(strptime(paste(data_sub$Date,data_sub$Time, sep=" "), "%d/%m/%Y %H:%M:%S"),
 
 # Close the png file
 dev.off()
+
+# See this plot at https://github.com/clarajorda/ExData_Plotting1/blob/master/figure/plot4.png
